@@ -1,0 +1,8 @@
+version: '2'
+services:
+  app:
+    container_name: proxy-server-sorsok
+    restart: always
+    build: .
+    ports:
+      - '80:80'
